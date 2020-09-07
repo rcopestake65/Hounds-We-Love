@@ -1,0 +1,10 @@
+{{ range .Site.Data.testimonials | shuffle | first 1 }}
+<div class="testimonial">
+	<i class="fas fa-quote-right fa-3x quotes"></i>
+	<p>{{ .testimonial}}</p>
+	<h4>{{ .name }}</h4>
+	<p>{{ .date }}</p>
+	
+</div>
+	
+{{end}}

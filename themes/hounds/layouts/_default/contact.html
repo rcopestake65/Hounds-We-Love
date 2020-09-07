@@ -1,0 +1,10 @@
+{{ define "main" }}
+{{- partial "hero.html" . -}}
+<div class="container">
+    {{ .Content }}
+    {{- partial "contact-form.html" . -}}
+    {{- partial "gallery.html" . -}}
+    {{- partial "testimonials.html" . -}}
+</div>
+
+{{ end }}

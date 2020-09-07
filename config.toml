@@ -1,0 +1,38 @@
+baseURL = "https://www.houndswelove.com/"
+languageCode = "en-us"
+title = "Hounds We Love"
+theme = "hounds"
+[params]
+    description = "Dog walking and training in Hackney, London"
+[[menu.main]]
+  name = "home"
+  url = "/"
+  weight = 1
+[[menu.main]]
+  name = "about us"
+  url = "/about"
+  weight = 2
+[[menu.main]]
+  name = "dog walking"
+  url = "/walking"
+  weight = 3
+[[menu.main]]
+  name = "socialisation"
+  url = "/socialisation"
+  weight = 4
+[[menu.main]]
+  name = "training"
+  url = "/training"
+  weight = 5
+[[menu.main]]
+  name = "behaviour support"
+  url = "/behaviour"
+  weight = 6
+[[menu.main]]
+  name = "shop"
+  url = "/shop"
+  weight = 7
+  [[menu.main]]
+  name = "contact us"
+  url = "/contact"
+  weight = 8
