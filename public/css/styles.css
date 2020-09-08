@@ -295,11 +295,11 @@ th {
 .etsy-container{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 50%;
   grid-gap: 10px;
   justify-items: center;
   align-items: center;
 }
+
 p.etsy-link{
   text-align: center;
 }
@@ -312,6 +312,9 @@ p.etsy-link a{
 }
 p.etsy-link a:hover{
   color: #f07d48;
+}
+.etsy-container a {
+  justify-self: start;
 }
 .etsy-container img{
   transition: opacity .3s;
@@ -1153,22 +1156,26 @@ Hero Slider - by CodyHouse.co
   background-image: url(/images/slider-01.jpg);
   background-position: center top;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero-2 {
   background-image: url(/images/slider-02.jpg);
-  background-position: center 90px;
+  background-position: center top;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero-3 {
   background-image: url(/images/slider-03.jpg);
   background-position: left center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero-4 {
   background-image: url(/images/slider-04.jpg);
   background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
 }

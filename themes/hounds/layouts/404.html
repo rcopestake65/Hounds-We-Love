@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="container">
+    {{ .Content }}
+    <div style="margin-top: 200px;">
+        <h2 id="title">Oops something seems to have gone wrong</h2>
+
+            <a href="{{ "/" | relURL }}">Please use the navigation above to select your page - or click here for the Homepage</a>
+            <p style="margin-top: 50px;"><img src="/images/404.jpg" /></p>
+       </div>
+</div>
+
+{{ end }}

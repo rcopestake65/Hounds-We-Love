@@ -5,9 +5,7 @@ description: "Dog walking and training in Hackney, London"
 #draft: true
 ---
 
-## Dog Walking & Training in Hackney
-
-### Welcome to HoundsWeLove, a small family run business based at our home in Hackney, London.
+### Welcome to HoundsWeLove, a small family run business offering dog walking and dog training in Stamford Hill, Stoke Newington and surrounding areas of Hackney.
 
 We have many years’ experience caring for dogs. We have raised a number of puppies of our own as part of our family and have worked professionally with a large number of breeds.
 
