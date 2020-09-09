@@ -230,7 +230,11 @@ img {
   min-height: 700px;
   width: 100%;
 }
-
+@media (min-width: 1300px){
+  .hero {
+    min-height: 900px;
+  }
+}
 /*gallery (see also baguetteBox.css )*/
 
 .gallery-grid {
@@ -298,11 +302,13 @@ th {
   grid-gap: 10px;
   justify-items: center;
   align-items: center;
+  margin-left: 40px;
 }
 
 p.etsy-link{
   text-align: center;
 }
+
 p.etsy-link a{
   text-align: center;
   font-size: 1.5rem;
@@ -321,6 +327,22 @@ p.etsy-link a:hover{
 }
 .etsy-container img:hover{
   opacity: .8;
+}
+@media (min-width: 400px){
+  .etsy-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    justify-items: center;
+    align-items: center;
+    margin-left: 0;
+  }
+  p.etsy-link{
+    display: none;
+  }
+  .etsy-container a {
+    justify-self: center;
+  }
 }
 /*Contact*/
 
@@ -670,9 +692,9 @@ Hero Slider - by CodyHouse.co
   }
 }
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1300px) {
   .cd-hero__slider {
-    height: 680px;
+    height: 900px;
   }
 }
 
