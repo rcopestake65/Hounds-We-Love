@@ -19,3 +19,5 @@ Our range of friendly and reliable services include:
 Within our shop you can find our handcrafted leads, collars, training long lines and other small items from leather and BioThane, a vegan alternative.
 
 {{< logos >}}
+
+

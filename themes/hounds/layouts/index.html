@@ -1,8 +1,19 @@
 {{ define "main" }}
 {{- partial "slider.html" . -}}
 <div class="container">
-    {{ .Content }}
-    {{- partial "testimonials.html" . -}}
-</div>
+  {{ .Content }}
 
+
+  <div class="testimonial">
+    <i class="fas fa-quote-right fa-3x quotes"></i>
+    {{ $testimonials := site.Data.testimonials }}
+    {{ range $testimonials }}
+    {{ if eq .id "1" }}
+    <p>{{ .testimonial}}</p>
+    <h4>{{ .name }}</h4>
+    <p>{{ .date }}</p>
+  </div>
+</div>
+{{ end }}
+{{ end }}
 {{ end }}

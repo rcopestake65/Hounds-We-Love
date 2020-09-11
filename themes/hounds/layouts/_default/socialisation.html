@@ -3,7 +3,16 @@
 <div class="container">
     {{ .Content }}
     {{- partial "gallery.html" . -}}
-    {{- partial "testimonials.html" . -}}
-</div>
-
-{{ end }}
+    <div class="testimonial">
+        <i class="fas fa-quote-right fa-3x quotes"></i>
+        {{ $testimonials := site.Data.testimonials }}
+        {{ range $testimonials }}
+        {{ if eq .id "5" }}
+        <p>{{ .testimonial}}</p>
+        <h4>{{ .name }}</h4>
+        <p>{{ .date }}</p>
+      </div>
+    </div>
+    {{ end }}
+    {{ end }}
+    {{ end }}
