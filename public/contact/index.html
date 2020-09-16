@@ -71,14 +71,30 @@
     </div>
 
     <div class="form-item">
-        <div class="email-btn">
-            <a href="mailto:info@houndswelove.com">info@houndswelove.com</a>
-        </div>
+     
          
+        <form>     
+            <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+            <input name="email" type="text" class="feedback-input" placeholder="Email" />
+            <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
+            <input type="submit" value="SUBMIT" id="submit-btn"/>
+
+            
+        </form>
         
-          
+    </div>
+    <div class="thanks-message">
+        <p>Thank you for conatcting HoundsWeLove.</p>
+        <p>We'll get back to you shortly</p>
+        <img src="/images/hounds-we-love-logo-1.png">
     </div>
 </div>
+<script>
+    $( "#submit-btn" ).on( "click", function() {
+  $(".thanks-message").addClass("show");
+  $(".form-item").hide();
+});
+</script>
 <div class="baguetteBoxOne gallery gallery-grid">
 
     <a href="/images/contact/gallery-01.jpg" data-caption="Caption 1"><img class="thumbnail" src="/images/contact/gallery-01.jpg"></a>
@@ -130,7 +146,7 @@
 </footer><script>
             document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('show'));
         </script>
-        <script src="js/slider.js"></script>
+        <script src="js/sliderx.js"></script>
         <script>
             window.onload = function() {
                 baguetteBox.run('.baguetteBoxOne');

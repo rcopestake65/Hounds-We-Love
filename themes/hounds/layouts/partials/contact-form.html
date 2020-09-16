@@ -4,16 +4,27 @@
     </div>
 
     <div class="form-item">
-        <div class="email-btn">
-            <a href="mailto:info@houndswelove.com">info@houndswelove.com</a>
-        </div>
+     
          
-        <!--<form method="post" action="sendmail.php">     
+        <form>     
             <input name="name" type="text" class="feedback-input" placeholder="Name" />   
             <input name="email" type="text" class="feedback-input" placeholder="Email" />
             <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
-            <input type="submit" value="SUBMIT"/>
-          </form>-->
-          
+            <input type="submit" value="SUBMIT" id="submit-btn"/>
+
+            
+        </form>
+        
+    </div>
+    <div class="thanks-message">
+        <p>Thank you for conatcting HoundsWeLove.</p>
+        <p>We'll get back to you shortly</p>
+        <img src="/images/hounds-we-love-logo-1.png">
     </div>
 </div>
+<script>
+    $( "#submit-btn" ).on( "click", function() {
+  $(".thanks-message").addClass("show");
+  $(".form-item").hide();
+});
+</script>
