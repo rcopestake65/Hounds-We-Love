@@ -353,7 +353,23 @@ p.etsy-link a:hover{
   align-items: center;
   grid-gap: 10px;
 }
+.thanks-message{
+  display: none;
+  margin-top: 0 0 0 50px;
 
+}
+.show{
+  display: block;
+  display: block;
+  margin: 0 0 0 50px;
+  justify-self: center;
+  align-self: center;
+  font-size: 1.3rem;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 30px;
+
+}
 @media (max-width: 850px) {
   .form-container {
     grid-template-columns: 200px 1fr;
