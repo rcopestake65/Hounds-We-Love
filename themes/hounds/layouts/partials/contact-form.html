@@ -9,10 +9,10 @@
         </div>
         <p>Telephone: 07976 634559</p>
   
-        <form id="contactForm" action="https://hooks.zapier.com/hooks/catch/8553878/ow8xykg/" type="POST">
-            <input name="name" type="text" class="feedback-input" placeholder="Name" />   
-            <input name="email" type="text" class="feedback-input" placeholder="Email" />
-            <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
+        <form id="contactForm" action="#" method="post">
+            <input id="name" name="name" type="text" class="feedback-input" placeholder="Name" />   
+            <input id="email" name="email" type="text" class="feedback-input" placeholder="Email" />
+            <textarea id="Body" name="Body" class="feedback-input" placeholder="Message"></textarea>
             <input type="submit" value="SUBMIT" id="submit-btn"/>
         </form>
 
@@ -23,9 +23,33 @@
         <img src="/images/hounds-we-love-logo-1.png">
     </div>
 </div>
+
 <script>
-    $( "#submit-btn" ).on( "click", function() {
-  $(".thanks-message").addClass("show");
-  $(".form-item").hide();
-});
+    $("#contactForm").submit(function(e) {
+        e.preventDefault();
+
+        var name  = $('#name').val();
+        var email = $('#email').val();  
+        var Body = $('#Body').val();    
+
+        
+        var data = {
+                email : email,
+                message : Body,
+                contact : name
+            };
+
+        $.ajax({    
+
+        url: "https://hooks.zapier.com/hooks/catch/8553878/owf4qxv/",
+        type: "post",
+        data: JSON.stringify(data),
+    
+        success: function() {
+            $(".thanks-message").addClass("show");
+            $(".form-item").hide();
+        }
+        });
+    });
+
 </script>
