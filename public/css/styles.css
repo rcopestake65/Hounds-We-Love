@@ -270,6 +270,7 @@ img {
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   align-items: center;
+  margin-bottom: 3rem;
 }
 
 .logo-grid img {
