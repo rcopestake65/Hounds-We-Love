@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-us"><meta charset="UTF-8">
+<meta name="description" content="Dog walking and training in Hackney, London ">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Hounds We Love</title>
+<link rel="canonical" href="https://www.houndswelove.com/contact/" />
+<link rel="stylesheet" href="/css/styles.css" />
+<link rel="stylesheet" href="https://www.houndswelove.com/css/baguetteBox.css">
+<link rel="stylesheet" href="https://www.houndswelove.com/css/etsy-shop.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="canonical" href="https://www.houndswelove.com/contact/" />
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet"> 
+<script src="/js/baguetteBox.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<body><div class="container-full-width">
+    <header>
+        
+    <div class="menu-btn">
+        <p>Menu</p>
+        <i class="fas fa-bars fa-2x"></i>
+    </div>
+    
+        <h1 class="hidden">Hounds We Love - Dog Walking & Training in Hackney</h1>
+         
+        <div class="social-menu">
+            <ul>
+                <li><a href="https://www.facebook.com/houndswelove/"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+                <li><a href="https://www.instagram.com/hounds_we_love_london/"><i class="fab fa-instagram fa-lg"></i></a></li>
+            </ul>
+        </div>
+        <nav class="main-nav">
+            <a href="/" title="home" class="navbar-item">
+                <img src="/images/hounds-we-love-logo-1.png" alt="Hounds We Love logo" class="logo">
+            </a>
+               
+            
+            <ul class="main-menu">
+                
+                
+                    <li><a href="/" class="navbar-item ">home</a>
+                    </li>
+                    <li><a href="/about" class="navbar-item ">about us</a>
+                    </li>
+                    <li><a href="/walking" class="navbar-item ">dog walking</a>
+                    </li>
+                    <li><a href="/socialisation" class="navbar-item ">socialisation</a>
+                    </li>
+                    <li><a href="/training" class="navbar-item ">training</a>
+                    </li>
+                    <li><a href="/behaviour" class="navbar-item ">behaviour support</a>
+                    </li>
+                    <li><a href="/shop" class="navbar-item ">shop</a>
+                    </li>
+                    <li><a href="/contact" class="navbar-item active">contact us</a>
+                    </li>
+            </ul>
+           
+        </nav>
+    </header>
+</div>
+
+
+<main id="content"><div class="hero" 
+    style="background: url(/images/contact-hero.jpg) top center; background-size:cover;" >
+    </div>
+<div class="container">
+    <div class="form-container">
+    <div class="image-item">
+        <img src="/images/contact/daisy-laptop.jpg"> 
+    </div>
+
+    <div class="form-item">
+     <div class="email-btn">
+            <a href="mailto:info@houndswelove.com">info@houndswelove.com</a>
+        </div>
+        <p>Telephone: 07976 634559</p>
+  
+        <form id="contactForm" action="#" method="post">
+            <input id="name" name="name" type="text" class="feedback-input" placeholder="Name" required />   
+            <input id="email" name="email" type="text" class="feedback-input" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
+            <textarea id="Body" name="Body" class="feedback-input" placeholder="Message" required></textarea>
+            <input type="submit" value="SUBMIT" id="submit-btn"/>
+        </form>
+
+    </div>
+    <div class="thanks-message">
+        <p>Thank you for contacting HoundsWeLove.</p>
+        <p>We'll get back to you shortly</p>
+        <img src="/images/hounds-we-love-logo-1.png">
+    </div>
+</div>
+
+<script>
+    $("#contactForm").submit(function(e) {
+        e.preventDefault();
+
+        var name  = $('#name').val();
+        var email = $('#email').val();  
+        var Body = $('#Body').val();    
+
+        
+        var data = {
+                email : email,
+                message : Body,
+                contact : name
+            };
+
+        $.ajax({    
+
+        url: "https://hooks.zapier.com/hooks/catch/8553878/owf4qxv/",
+        type: "post",
+        data: JSON.stringify(data),
+    
+        success: function() {
+            $(".thanks-message").addClass("show");
+            $(".form-item").hide();
+        }
+        });
+    });
+
+</script>
+<div class="baguetteBoxOne gallery gallery-grid">
+
+    <a href="/images/contact/gallery-01.jpg" data-caption="Caption 1"><img class="thumbnail" src="/images/contact/gallery-01.jpg"></a>
+
+    <a href="/images/contact/gallery-02.jpg" data-caption="Caption 1"><img class="thumbnail" src="/images/contact/gallery-02.jpg"></a>
+
+    <a href="/images/contact/gallery-03.jpg" data-caption="Caption 1"><img class="thumbnail" src="/images/contact/gallery-03.jpg"></a>
+
+    <a href="/images/contact/gallery-04.jpg" data-caption="Caption 1"><img class="thumbnail" src="/images/contact/gallery-04.jpg"></a>
+ 
+</div><div class="testimonial">
+        <i class="fas fa-quote-right fa-3x quotes"></i>
+        
+        
+        
+    
+        
+    
+        
+    
+        
+        <p>When we moved to the area we needed to find trusted, responsible, experienced and reliable dog care for our miniature dachshund, Mr Pickle. Kevin, Angelita and all of the team at Hounds We Love tick all of those boxes and more. They are faultless and we cannot recommend them highly enough</p>
+        <h4>Joanna</h4>
+        <p>August 2020</p>
+      </div>
+    </div>
+    
+    
+        
+    
+        
+    
+        
+    
+    
+        </main><footer>
+    <div class="container footer-container">
+       <p>&copy; <script type="text/javascript">
+        document.write(new Date().getFullYear());
+      </script> - Hounds We Love</p>
+       
+        <ul class="footer-social-menu">
+            <li><a href="https://www.facebook.com/houndswelove/"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+            <li><a href="https://www.instagram.com/hounds_we_love_london/"><i class="fab fa-instagram fa-lg"></i></a></li>
+        </ul>
+   
+    </div>
+    
+</footer><script>
+            document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('show'));
+        </script>
+        <script src="js/slider.js"></script>
+        <script>
+            window.onload = function() {
+                baguetteBox.run('.baguetteBoxOne');
+            };
+                </script>
+    </body>
+</html>
