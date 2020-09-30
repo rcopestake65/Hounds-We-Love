@@ -1226,3 +1226,17 @@ Hero Slider - by CodyHouse.co
   background-size: cover;
   background-repeat: no-repeat;
 }
+@media (max-width: 700px){
+  .hero-1 {
+    background-position: left top;
+  }
+  .hero-2 {
+    background-position: center top;
+  }
+  .hero-3 {
+    background-size: cover;
+  }
+  .hero-4 {
+    background-position: left center;
+  }
+}
