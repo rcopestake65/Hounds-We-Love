@@ -1208,7 +1208,7 @@ Hero Slider - by CodyHouse.co
 
 .hero-2 {
   background-image: url(/images/slider-02.jpg);
-  background-position: center top;
+  background-position: center 130px;
   background-size: cover;
   background-repeat: no-repeat;
 }
