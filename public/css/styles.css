@@ -1214,15 +1214,15 @@ Hero Slider - by CodyHouse.co
 }
 
 .hero-3 {
-  background-image: url(/images/slider-03.jpg);
-  background-position: left center;
+  background-image: url(/images/slider-05.jpg);
+  background-position: left 120px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .hero-4 {
-  background-image: url(/images/slider-04.jpg);
-  background-position: center center;
+  background-image: url(/images/slider-06.jpg);
+  background-position: center 120px;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1234,9 +1234,9 @@ Hero Slider - by CodyHouse.co
     background-position: center top;
   }
   .hero-3 {
-    background-size: cover;
+    background-position: center center;
   }
   .hero-4 {
-    background-position: left center;
+    background-position: center center;
   }
 }
