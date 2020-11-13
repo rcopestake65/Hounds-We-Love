@@ -39,10 +39,12 @@ For your dog’s comfort we ask that they wear a well-fitting harness. Please al
 
 Our current catchment area for walks includes Stamford Hill, Stoke Newington and Clapton.
 
+<!---
 ### Our current dog walking prices are:
 
 | Pay as you go walks      | Pre-paid block of five walks  | Pre-paid block of ten walks |
 | ------------------------ | ------------------------------| ----------------------------|
 | £20 per walk             | £90                           |£160
 
+-->
 [Please contact us for further information.](/contact)
