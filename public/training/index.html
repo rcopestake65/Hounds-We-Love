@@ -122,7 +122,7 @@ We offer a range of services that can help, including:</p>
         
     
     
-        </main><footer>
+    </main><footer>
     <div class="container footer-container">
        <p>&copy; <script type="text/javascript">
         document.write(new Date().getFullYear());
@@ -136,13 +136,16 @@ We offer a range of services that can help, including:</p>
     </div>
     
 </footer><script>
-            document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('show'));
-        </script>
-        <script src="js/slider.js"></script>
-        <script>
-            window.onload = function() {
-                baguetteBox.run('.baguetteBoxOne');
-            };
-                </script>
-    </body>
+        document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.main-menu')
+            .classList.toggle('show'));
+    </script>
+    <script src="js/slider.js"></script>
+    <script src="/js/form-validation.js"></script>
+    <script>
+        window.onload = function () {
+            baguetteBox.run('.baguetteBoxOne');
+        };
+    </script>
+</body>
+
 </html>

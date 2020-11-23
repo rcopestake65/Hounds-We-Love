@@ -1,19 +1,38 @@
 <div class="form-container">
     <div class="image-item">
-        <img src="/images/contact/daisy-laptop.jpg"> 
+        <img src="/images/contact/daisy-laptop.jpg">
     </div>
 
     <div class="form-item">
-     <div class="email-btn">
+        <div class="email-btn">
             <a href="mailto:info@houndswelove.com">info@houndswelove.com</a>
         </div>
         <p>Telephone: 07976 634559</p>
-  
+
         <form id="contactForm" action="#" method="post">
-            <input id="name" name="name" type="text" class="feedback-input" placeholder="Name" required />   
-            <input id="email" name="email" type="text" class="feedback-input" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
-            <textarea id="Body" name="Body" class="feedback-input" placeholder="Message" required></textarea>
-            <input type="submit" value="SUBMIT" id="submit-btn"/>
+            <div class="form-control">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" class="feedback-input" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text" class="feedback-input" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="message">Message</label>
+                <textarea id="body" name="body" class="feedback-input"></textarea>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <input type="submit" value="Submit" id="submit-btn" />
         </form>
 
     </div>
@@ -23,33 +42,25 @@
         <img src="/images/hounds-we-love-logo-1.png">
     </div>
 </div>
-
-<script>
-    $("#contactForm").submit(function(e) {
+<!-- <script>
+    $("#contactForm").submit(function (e) {
         e.preventDefault();
-
-        var name  = $('#name').val();
-        var email = $('#email').val();  
-        var Body = $('#Body').val();    
-
-        
+        var name = $('#name').val();
+        var email = $('#email').val();
+        var Body = $('#Body').val();
         var data = {
-                email : email,
-                message : Body,
-                contact : name
-            };
-
-        $.ajax({    
-
-        url: "https://hooks.zapier.com/hooks/catch/8553878/owf4qxv/",
-        type: "post",
-        data: JSON.stringify(data),
-    
-        success: function() {
-            $(".thanks-message").addClass("show");
-            $(".form-item").hide();
-        }
+            email: email,
+            message: Body,
+            contact: name
+        };
+        $.ajax({
+            url: "https://hooks.zapier.com/hooks/catch/8553878/owf4qxv/",
+            type: "post",
+            data: JSON.stringify(data),
+            success: function () {
+                $(".thanks-message").addClass("show");
+                $(".form-item").hide();
+            }
         });
     });
-
-</script>
+</script> -->

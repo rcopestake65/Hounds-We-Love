@@ -388,6 +388,24 @@ p.etsy-link a:hover{
 .form-item{
   padding-left: 50px;
 }
+.form-control{
+  position: relative;
+}
+.form-item i{
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  visibility: hidden;
+}
+.form-control small{
+  margin-bottom: 1rem;
+  display: inline-block;
+  visibility: hidden;
+}
+.form-control.error small{
+  visibility: visible;
+  color: #e74c3c;
+}
 .email-btn {
   background-color: #000;
   border-radius: 8px;
@@ -425,7 +443,7 @@ form {
   border: 2px solid #eee;
   transition: all 0.3s;
   padding: 13px;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   width: 100%;
   box-sizing: border-box;
   outline: 0;
@@ -435,7 +453,26 @@ form {
 .feedback-input:focus {
   border: 2px solid #666;
 }
-
+.form-control.success input{
+  border-color: #23cc71;
+}
+.form-control.error input{
+  border-color: #e74c3c;
+}
+.form-control.success textarea{
+  border-color: #23cc71;
+}
+.form-control.error textarea{
+  border-color: #e74c3c;
+}
+.form-control.success i.fa-check-circle{
+  color: #23cc71;
+  visibility: visible;
+}
+.form-control.error i.fa-exclamation-circle{
+  color: #e74c3c;
+  visibility: visible;
+}
 textarea {
   height: 150px;
   line-height: 150%;

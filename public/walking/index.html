@@ -118,7 +118,7 @@ We collect and drop off from a small catchment area, ensuring your dog’s time 
     
     
     
-        </main><footer>
+    </main><footer>
     <div class="container footer-container">
        <p>&copy; <script type="text/javascript">
         document.write(new Date().getFullYear());
@@ -132,13 +132,16 @@ We collect and drop off from a small catchment area, ensuring your dog’s time 
     </div>
     
 </footer><script>
-            document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('show'));
-        </script>
-        <script src="js/slider.js"></script>
-        <script>
-            window.onload = function() {
-                baguetteBox.run('.baguetteBoxOne');
-            };
-                </script>
-    </body>
+        document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.main-menu')
+            .classList.toggle('show'));
+    </script>
+    <script src="js/slider.js"></script>
+    <script src="/js/form-validation.js"></script>
+    <script>
+        window.onload = function () {
+            baguetteBox.run('.baguetteBoxOne');
+        };
+    </script>
+</body>
+
 </html>
