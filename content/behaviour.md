@@ -48,7 +48,7 @@ It’s impossible for predict how long it might take and we are unable to offer 
 
 #### How much does it cost?
 
-The Initial Assessment costs £80, whilst follow up sessions cost £50 each. A block of four follow up sessions can be purchased for £160.
+The Initial Assessment costs £100, whilst follow up sessions cost £60 each. A block of four follow up sessions can be purchased for £180.
 
 [Please contact us for further information.](/contact)
 

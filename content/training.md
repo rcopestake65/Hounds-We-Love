@@ -32,7 +32,7 @@ The arrival of a puppy or rescue dog into your home is a hugely exciting time, b
 
 This service is available either face to face or via Zoom
 
-£80 for a two hour consultation and detailed post session report with ongoing phone, text and email support.
+£100 for a two hour consultation and detailed post session report with ongoing phone, text and email support.
 
 ### Group Puppy Classes 
 
@@ -40,7 +40,7 @@ Our functional skills based puppy classes will help you develop all of the basic
 
 Group puppy sessions are taught weekly in blocks of six.
 
-£80 for six one hour sessions.
+£100 for six one hour sessions.
 
 We also offer a range of [puppy socialisation services.](/socialisation)
 
@@ -50,7 +50,7 @@ We have experience of working with and teaching children and young adults in add
 
 Junior/Family Dog Training is available face to face or via Zoom.
 
-£50 per 1hr session. Discounts available for multiple sessions.
+£60 per 1hr session. Discounts available for multiple sessions.
 
 ### One to One training
 
@@ -58,7 +58,7 @@ Whatever the breed, age or background of your dog, we can help. We can visit you
 
 One to one training is also available via Zoom.
 
-£50 per 1hr session. Discounts available for multiple sessions.
+£60 per 1hr session. Discounts available for multiple sessions.
 
 [Please contact us for further information/bookings.](/contact)
 
