@@ -28,10 +28,6 @@ theme = "hounds"
   name = "behaviour support"
   url = "/behaviour"
   weight = 6
-[[menu.main]]
-  name = "shop"
-  url = "/shop"
-  weight = 7
   [[menu.main]]
   name = "contact us"
   url = "/contact"

@@ -13,17 +13,14 @@ images:
 ---
 
 ## About Us
-HoundsWeLove was established in 2016 by Kevin and Angelita Brokenshire. Combining over 50 years’ experience of caring for many different breeds of dog, we love hounds of all shapes and sizes. We offer friendly, reliable and professional dog walking, training and behavioural services in London N16 and surrounding areas.
+HoundsWeLove was established in 2016 by Kevin and Angelita Brokenshire. Combining over 50 years' experience of caring for many different breeds of dog, we love hounds of all shapes and sizes. We offer friendly, reliable and professional dog walking, training and behavioural services in London N16 and surrounding areas.
 
 We have a small dedicated team of colleagues who share our love of dogs.
 
-Kevin, Angelita and Liam all have up to date DBS and are Canine 1st Aid Trained. We are fully insured by Pet Business Insurance and are licensed by the Lea Valley Park Authority to walk in their fabulous green spaces.
-
-Kevin and Angelita have studied canine behaviour and training extensively. They are first and foremost dog owners, and relate to the dogs they work with in the same caring and respectful way they relate to their own. They are both working towards the ISCP Advanced Diploma in Canine Behaviour.
+Kevin and Angelita have up to date DBS and are Canine 1st Aid Trained. They are fully insured by Pet Business Insurance and are licensed by the Lea Valley Park Authority to walk in their fabulous green spaces.
+They have studied canine behaviour and training extensively. They are first and foremost dog guardians, and relate to the dogs they work with in the same caring and respectful way they relate to their own. They are both working towards the ISCP Advanced Diploma in Canine Behaviour.
 
 Kevin is a fully qualified trainer and member of the IMDT; he has completed a number of courses with Canine Principles and the IMDT, amongst others. He is a qualified former school teacher with over 15 years experienced of working in education. Kevin is a member of the Pet Professionals Guild and volunteer at Glendee Dog Rescue.
- 
-Liam is currently working towards becoming a qualified behaviourist with the IMDT.
 
 ### How we work
 We are committed to positive reinforcement training methods. Central to our approach is building a trusting bond with your dog, using empathy, compassion and clear and consistent communication.
