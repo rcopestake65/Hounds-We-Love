@@ -16,7 +16,7 @@ Our range of friendly and reliable services include:
 - 1:1 Training
 - Behavioural Consultations
 
-Within our shop you can find our handcrafted leads, collars, training long lines and other small items from leather and BioThane, a vegan alternative.
+Within our shop you can find our handcrafted leather and BioThane leads and BioThane training long lines.
 
 {{< logos >}}
 
