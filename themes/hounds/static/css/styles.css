@@ -345,6 +345,36 @@ p.etsy-link a:hover{
     justify-self: center;
   }
 }
+/*shop grid of items*/
+.etsy-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1rem;
+  place-items: center;
+  
+}
+.etsy-grid-item{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+.etsy-grid-item:hover{
+  -webkit-box-shadow: 1px 4px 8px 1px rgba(0,0,0,0.72); 
+  box-shadow: 1px 4px 8px 1px rgba(0,0,0,0.72);
+}
+.etsy-grid h4{
+  font-size: .9rem;
+  overflow-x: hidden;
+  margin-bottom: 0;
+}
+.etsy-grid p{
+  font-weight: bold;
+  color: #000;
+  margin-top: 0pc;
+}
+
+
 /*Contact*/
 
 .form-container {

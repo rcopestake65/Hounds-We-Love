@@ -31,6 +31,13 @@ theme = "hounds"
   [[menu.main]]
   name = "contact us"
   url = "/contact"
+  [[menu.main]]
+  name = "shop"
+  url = "/shop"
+  weight = 7
+  [[menu.main]]
+  name = "contact us"
+  url = "/contact"
   weight = 8
 [[menu.main]]
   name = "recommended products"
