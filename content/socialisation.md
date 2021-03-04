@@ -6,7 +6,6 @@ name: "Socialisation"
 heroimage: /images/socialisation-hero.jpg
 images:
   - image_path: /images/socialisation/gallery-01.jpg
-  - image_path: /images/socialisation/gallery-02.jpg
   - image_path: /images/socialisation/gallery-03.jpg
   - image_path: /images/socialisation/gallery-04.jpg
 ---
@@ -24,8 +23,6 @@ There are many other factors that have a significant influence upon your puppy: 
 We currently offer a puppy socialisation course, consisting of four weekly group socialisation sessions, each lasting 40 minutes. The sessions aim to provide appropriate and healthy opportunities for your puppy to be socialised, including inter puppy play, sounds, textures, and objects. We will provide you with advice and guidance regarding approaches to socialisation within an urban environment, in addition to other contexts, such as around livestock and horses.
 
 Your puppy will require its second vaccination to participate.
-
-The cost of our puppy socialisation course is £50.
 
 [Please contact us for further information.](/contact)
 
