@@ -223,7 +223,12 @@ img {
 .testimonial p:last-of-type {
   margin-bottom: 0;
 }
+/*hero image as of 2021*/
 
+.hero-img img{
+  width: 100%;
+  height: auto;
+}
 /*hero image*/
 
 .hero {
